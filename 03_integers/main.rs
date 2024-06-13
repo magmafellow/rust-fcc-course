@@ -115,7 +115,7 @@ fn main() {
     println!("Success!");
 }
 
-// --=Eleventh task --
+// --=Eleventh task --solved
 fn main() {
     // Integer addition
     // type infering will do the best. so all is u32 type
@@ -127,7 +127,7 @@ fn main() {
     assert!(1i8 - 2i8 == -1i8);
 
     // Integer multiplying
-    assert!(3 * 50 = 150); // i32
+    assert!(3 * 50 == 150); // i32
 
     // Integer division
     assert!(9.6f32 / 3.2f32 == 3.0f32);
@@ -147,3 +147,6 @@ fn main() {
     println!("1 << 5 is {}", 1u32 << 5);
     println!("0x80 >> 2 is 0x{:x}", 0x80u32 >> 2);
 }
+
+
+// Great!

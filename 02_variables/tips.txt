@@ -1,0 +1,9 @@
+
+
+let (x, y)
+// is equal to
+let x;
+let y;
+
+
+.. - placeholder;

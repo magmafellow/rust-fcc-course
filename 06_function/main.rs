@@ -65,3 +65,24 @@ fn never_return_fn() -> ! {
   // unimplemented!()
   todo!()
 }
+
+// --------------------------------------------
+
+fn five() {
+  let b = false;
+  let _v = match b {
+    true => 1,
+    false => {
+      println!("Success!");
+      panic!("we have no value for `false`, but we can panic");
+    }
+  };
+
+  println!("If this printed out you failed");
+}
+
+// --------------------------------------------
+
+fn six() {
+  
+}
